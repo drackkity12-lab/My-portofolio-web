@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhamad Alvin — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">Muhamad Alvin.</div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">about</a></li>
+      <li><a href="#skills" class="mob-link">skills</a></li>
+      <li><a href="#projects" class="mob-link">projects</a></li>
+      <li><a href="#contact" class="mob-link">contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-tag reveal">— web developer</div>
+    <h1 class="hero-title">
+      <span class="reveal delay-1">Halo, aku</span><br>
+      <span class="hero-name reveal delay-2">Muhamad Alvin.</span>
+    </h1>
+    <p class="hero-sub reveal delay-3">
+      Aku bikin website yang bukan cuma jalan,<br>tapi juga enak dilihat.
+    </p>
+    <div class="hero-cta reveal delay-4">
+      <a href="#projects" class="btn-primary">Lihat Project</a>
+      <a href="#contact" class="btn-ghost">Hubungi Aku</a>
+    </div>
+    <div class="hero-scroll reveal delay-5">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-deco"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-left">
+        <div class="about-img-wrap reveal">
+          <img src="images/Alvin.jpg" alt="Foto Profil" class="about-img-photo">
+          <div class="about-img-border"></div>
+        </div>
+      </div>
+      <div class="about-right">
+        <p class="section-label reveal">— tentang aku</p>
+        <h2 class="section-title reveal delay-1">
+          Pemula yang<br><em>serius belajar.</em>
+        </h2>
+        <p class="about-text reveal delay-2">
+          Nama aku Alvin, fresh graduate dari smk pusaka 1 yang lagi serius mendalami
+          web development. Aku percaya bahwa kode yang bagus bukan cuma yang bisa
+          berjalan, tapi yang mudah dibaca dan dipelihara.
+        </p>
+        <p class="about-text reveal delay-3">
+          Di waktu luang aku suka ngulik desain UI dan dengerin lo-fi sambil coding.
+          Lagi aktif belajar React dan mencari peluang kerja pertama.
+        </p>
+        <div class="about-stats reveal delay-4">
+          <div class="stat">
+            <span class="stat-num">8+</span>
+            <span class="stat-label">Project Selesai</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">1.5</span>
+            <span class="stat-label">Tahun Belajar</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Teknologi Utama</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="section-label reveal">— kemampuan</p>
+    <h2 class="section-title reveal delay-1">Yang aku<br><em>bisa lakukan.</em></h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal delay-1">
+        <div class="skill-icon">&#60;/&#62;</div>
+        <h3>HTML & CSS</h3>
+        <p>Struktur semantik dan styling responsif yang rapi, termasuk Flexbox dan Grid.</p>
+        <div class="skill-bar"><div class="skill-fill" data-fill="85"></div></div>
+      </div>
+      <div class="skill-card reveal delay-2">
+        <div class="skill-icon">JS</div>
+        <h3>JavaScript</h3>
+        <p>Logika interaktif, DOM manipulation, fetch API, dan ES6+ syntax.</p>
+        <div class="skill-bar"><div class="skill-fill" data-fill="70"></div></div>
+      </div>
+      <div class="skill-card reveal delay-3">
+        <div class="skill-icon">⚛</div>
+        <h3>React</h3>
+        <p>Sedang aktif belajar component-based UI dan state management dasar.</p>
+        <div class="skill-bar"><div class="skill-fill" data-fill="50"></div></div>
+      </div>
+      <div class="skill-card reveal delay-4">
+        <div class="skill-icon">🎨</div>
+        <h3>UI Design</h3>
+        <p>Figma untuk wireframe dan prototype sederhana sebelum mulai coding.</p>
+        <div class="skill-bar"><div class="skill-fill" data-fill="60"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label reveal">— project</p>
+    <h2 class="section-title reveal delay-1">Hal yang sudah<br><em>aku buat.</em></h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal delay-1">
+        <div class="project-thumb p1">
+          <span class="project-num">01</span>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+          <h3>Toko Kopi Online</h3>
+          <p>Landing page untuk kedai kopi lokal dengan menu interaktif dan form pemesanan sederhana.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">Live Demo →</a>
+            <a href="#" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal delay-2">
+        <div class="project-thumb p2">
+          <span class="project-num">02</span>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+          <h3>To-Do App</h3>
+          <p>Aplikasi manajemen tugas harian dengan fitur tambah, hapus, dan tandai selesai. Data disimpan di localStorage.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">Live Demo →</a>
+            <a href="#" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal delay-3">
+        <div class="project-thumb p3">
+          <span class="project-num">03</span>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>React</span><span>API</span>
+          </div>
+          <h3>Weather App</h3>
+          <p>Aplikasi cuaca yang menampilkan data real-time dari OpenWeatherMap API berdasarkan nama kota.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">Live Demo →</a>
+            <a href="#" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <p class="section-label reveal">— kontak</p>
+      <h2 class="contact-title reveal delay-1">
+        Yuk ngobrol<br><em>bareng aku.</em>
+      </h2>
+      <p class="contact-sub reveal delay-2">
+        Terbuka untuk internship, freelance, atau sekadar ngobrol soal web dev.
+      </p>
+      <a href="mailto:drackkity12@email.com" class="btn-primary large reveal delay-3">
+        drackkity12@email.com ↗
+      </a>
+      <div class="social-links reveal delay-4">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>Muhamad Alvin © 2026</span>
+    <span>dibuat dengan cinta dan semangat belajar</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
